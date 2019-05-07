@@ -1,0 +1,136 @@
+/*Dark purple: #4c2da2
+Light Purple: #5031a9
+Button: #f14b59
+Dots: #6e45e1*/
+
+* {
+  margin: 0 auto;
+  /*border: 0.2px red dotted;*/
+}
+
+body {
+  background-color: #4c2da2;
+  color: #fff;
+}
+
+.wrapper {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.wrapper ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+  *display: inline;
+}
+
+.wrapper li {
+  float: left;
+  padding: 15px 6px;
+}
+
+ol, ul {
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.dot {
+  color: #6e45e1;
+}
+
+.navbar-header {
+  float: right;
+  background-color: #f14b59;
+  height: 80px;
+  width: 100px;
+  padding-top: 18px;
+  font-weight: 700;
+  display: none;
+}
+
+.navbar-header a, .navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar-header a:hover, .navbar a:hover {
+  cursor: pointer;
+  color: #6e45e1;
+}
+
+.navbar {
+  text-transform: uppercase;
+  background-color: #5031a9;
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.1);
+}
+
+.top-content {
+  height: 100vh;
+}
+
+.top-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 100px 0px 0px 10px;
+  max-width: 300px;
+}
+
+.about-content {
+  height: 100vh;
+  background-color: #f14b59;
+}
+
+.about-content h1 {
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 100px 0px 0px 10px;
+  max-width: 300px;
+}
+
+.triangle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  margin-left: -25px;
+  margin-top: 50px;
+  background-color: #4c2da2;
+  border-bottom: 1px white solid;
+  border-right: 1px white solid;
+  transform: rotate(45deg);
+}
+
+.photo-of-lee {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #5031a9;
+  height: 70px;
+  padding-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.icons i {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
